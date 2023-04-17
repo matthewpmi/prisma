@@ -2,13 +2,13 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient({})
 
 async function main() {
-  // await prisma.user.deleteMany()
+ // await prisma.user.deleteMany()
   // await prisma.user.createMany({
   //   data: [
   //     {
-  //       name: "Sally",
-  //       age: 12,
-  //       email: "sally@test1.com"
+  //       name: "John",
+  //       age: 15,
+  //       email: "John@test.com"
   //     }
   //   ]
   // })
